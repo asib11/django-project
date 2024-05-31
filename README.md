@@ -17,3 +17,7 @@ make sure that file directory must be right
 ## Make First App
 
     python3 manage.py startapp <appname>
+
+## View
+
+View means **request and response in a website or request handler or action**. In django, they called view.
