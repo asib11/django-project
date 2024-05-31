@@ -2,11 +2,9 @@
 
 ## Envrionment Setup
 
-    ```
     python3 -m venv <myenvname>
     source <myenvname>/bin/activate
     pip intall django
-    ```
 
 ## Start Project
 
