@@ -10,4 +10,5 @@ def say_hello(request):
     # pull ddata from db
     # transform
     # send email
-    return HttpResponse('hello world')
+    # return HttpResponse('hello world')
+    return render(request, 'hello.html', {'name': 'Asib'})
