@@ -25,6 +25,8 @@ View means **request and response in a website or request handler or action**. I
 ## Make two app
 
 for store app
-    python3 manage.py startapp store
+    
+    ```python3 manage.py startapp store```
+
 for tags app
-    python3 manage.py startapp tags
+    ```python3 manage.py startapp tags```
