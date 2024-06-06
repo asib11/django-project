@@ -21,3 +21,10 @@ make sure that file directory must be right
 ## View
 
 View means **request and response in a website or request handler or action**. In django, they called view.
+
+## Make two app
+
+for store app
+    python3 manage.py startapp store
+for tags app
+    python3 manage.py startapp tags
