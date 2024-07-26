@@ -8,4 +8,9 @@ class Product(models.Model):
     inventory = models.IntegerField()
     update_time = models.DateTimeField(auto_now=True)
 
-class Customer
+class Customer(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=70)
+    email = models.EmailField(unique=True)
+    phone = models.CharField(max_length=14)
+    birth_date = models.DateField(null=True)
