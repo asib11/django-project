@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class Collection(models.Model):
     title = models.CharField(max_length=255)
+    feature_product = models.ForeignKey('Product', on_delete=models.SET_NULL, null= True, related_name='+') #resolving circular problem
 
 class Promotion(models.Model):
     description = models.CharField(max_length=255)
